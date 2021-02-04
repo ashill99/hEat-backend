@@ -10,28 +10,28 @@ class Api::V1::LocationsController < ApplicationController
         render json: locations
     end
 
-    def new
-        location = Location.new
-    end
+    # def new
+    #     location = Location.new
+    # end
 
-    def edit
-        location = Location.find(params[:id])
-    end
+    # def edit
+    #     location = Location.find(params[:id])
+    # end
 
-    def update
-        location = Location.find(params[:id])
-        location.update(location_params)
-    end
+    # def update
+    #     location = Location.find(params[:id])
+    #     location.update(location_params)
+    # end
 
-    def create 
-        location = Location.create(location_params)
-        render json: @location
-    end 
+    # def create 
+    #     location = Location.create(location_params)
+    #     render json: @location
+    # end 
 
-    def destroy 
-        location = Location.find(params[:id])
-        location.destroy  
-    end
+    # def destroy 
+    #     location = Location.find(params[:id])
+    #     location.destroy  
+    # end
 
     private
 
