@@ -22,14 +22,18 @@ location1 = Location.create(
     address: "127 Havermayer",
     restOrBar: "Restaurant",
     restType: "Pizza",
-    rating: 0
+    rating: 0,
+    longitude: -73.9568,
+    latitude: 40.7126
 )
 location2 = Location.create(
     name: "Ops",
     address: "346 Himrod",
     restOrBar: "Restaurant",
     restType: "Pizza",
-    rating: 0
+    rating: 0,
+    longitude: -73.9172,
+    latitude: 40.7026
 )
 
 location3 = Location.create(
@@ -37,7 +41,9 @@ location3 = Location.create(
     address: "22 Orchard",
     restOrBar: "Restaurant",
     restType: "Pizza",
-    rating: 0
+    rating: 0,
+    longitude: -73.991,
+    latitude: 40.7154
 )
 
 user1 = User.create(

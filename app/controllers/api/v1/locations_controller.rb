@@ -36,6 +36,6 @@ class Api::V1::LocationsController < ApplicationController
     private
 
     def location_params
-        params.require(:location).permit(:id, :name, :address, :restOrBar, :restType, :rating)
+        params.require(:location).permit(:id, :name, :address, :restOrBar, :restType, :rating, :longitude, :latitude)
     end
 end
