@@ -46,6 +46,16 @@ location3 = Location.create(
     latitude: 40.7154
 )
 
+location4 = Location.create(
+    name: "Happy Fun Hideaway",
+    address: "1211 Myrtle Ave",
+    restOrBar: "Bar",
+    restType: "",
+    rating: 0,
+    longitude: -73.9318684,
+    latitude: 40.6975224
+)
+
 user1 = User.create(
     name: "Adam",
     username: "adam"
