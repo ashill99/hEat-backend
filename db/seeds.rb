@@ -64,17 +64,20 @@ user1 = User.create(
 comment1 = Comment.create(
     content: "We're in a good spot",
     user_id: 1, 
-    location_id: 2
+    location_id: 2,
+    likes: 0
 )
 
 comment2 = Comment.create(
     content: "What was that?",
     user_id: 1,
-    location_id: 2
+    location_id: 2,
+    likes: 0
 )
 
 comment3 = Comment.create(
     content: "Hmm Interesting",
     user_id: 1,
-    location_id: 2
+    location_id: 2,
+    likes: 0
 )
