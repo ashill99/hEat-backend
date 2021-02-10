@@ -93,21 +93,21 @@ user1 = User.create(
 )
 
 comment1 = Comment.create(
-    content: "We're in a good spot",
+    content: "So Warm",
     user_id: 1, 
     location_id: 2,
     likes: 0
 )
 
 comment2 = Comment.create(
-    content: "What was that?",
+    content: "Love it!",
     user_id: 1,
     location_id: 2,
     likes: 0
 )
 
 comment3 = Comment.create(
-    content: "Hmm Interesting",
+    content: "Great Pizza",
     user_id: 1,
     location_id: 2,
     likes: 0
