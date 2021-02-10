@@ -8,6 +8,10 @@ class CreateLocations < ActiveRecord::Migration[6.0]
       t.integer :rating
       t.float :longitude
       t.float :latitude
+      t.string :imgUrl 
+      t.string :website 
+      t.string :hours
+      t.string :menu
       t.timestamps
     end
   end

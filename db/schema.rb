@@ -43,6 +43,10 @@ ActiveRecord::Schema.define(version: 2021_02_10_001733) do
     t.integer "rating"
     t.float "longitude"
     t.float "latitude"
+    t.string "imgUrl"
+    t.string "website"
+    t.string "hours"
+    t.string "menu"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
