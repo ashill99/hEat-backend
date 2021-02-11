@@ -10,17 +10,18 @@ class Api::V1::CommentsController < ApplicationController
         render json: @comments
     end
 
-    def new
-        @comment = Comment.new
-    end
+    # def new
+    #     @comment = Comment.new
+    # end
 
-    def edit
-        @comment = Comment.find(params[:id])
-    end
+    # def edit
+    #     @comment = Comment.find(params[:id])
+    # end
 
     def update
         @comment = Comment.find(params[:id])
         @comment.update(comment_params)
+        render json: @comment
     end
 
     def create 

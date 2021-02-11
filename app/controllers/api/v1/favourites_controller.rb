@@ -14,9 +14,9 @@ class Api::V1::FavouritesController < ApplicationController
         @favourite = Favourite.new
     end
 
-    def edit
-        @favourite = Favourite.find(params[:id])
-    end
+    # def edit
+    #     @favourite = Favourite.find(params[:id])
+    # end
 
     def update
         @favourite = Favourite.find(params[:id])
