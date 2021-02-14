@@ -88,7 +88,6 @@ location5 = Location.create(
 )
 
 user1 = User.create(
-    name: "Adam",
     username: "adam"
 )
 
