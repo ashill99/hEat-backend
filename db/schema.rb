@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_02_10_001733) do
   create_table "comments", force: :cascade do |t|
     t.string "content"
     t.integer "likes"
+    t.integer "rating"
     t.bigint "user_id", null: false
     t.bigint "location_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -40,7 +41,6 @@ ActiveRecord::Schema.define(version: 2021_02_10_001733) do
     t.string "address"
     t.string "restOrBar"
     t.string "restType"
-    t.integer "rating"
     t.float "longitude"
     t.float "latitude"
     t.string "imgUrl"
@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(version: 2021_02_10_001733) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
+    t.string "email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

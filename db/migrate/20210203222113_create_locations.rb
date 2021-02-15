@@ -5,7 +5,6 @@ class CreateLocations < ActiveRecord::Migration[6.0]
       t.string :address
       t.string :restOrBar
       t.string :restType
-      t.integer :rating
       t.float :longitude
       t.float :latitude
       t.string :imgUrl 

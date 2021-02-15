@@ -22,7 +22,6 @@ location1 = Location.create(
     address: "127 Havermayer, Brooklyn",
     restOrBar: "Restaurant",
     restType: "Pizza",
-    rating: 0,
     longitude: -73.9568,
     latitude: 40.7126,
     website: "https://leo-nyc.com/",
@@ -35,7 +34,6 @@ location2 = Location.create(
     address: "346 Himrod, Brooklyn",
     restOrBar: "Restaurant",
     restType: "Pizza",
-    rating: 0,
     longitude: -73.9172,
     latitude: 40.7026,
     website: "http://www.opsbk.com/",
@@ -49,7 +47,6 @@ location3 = Location.create(
     address: "1079 Broadway, Brooklyn, NY 11221",
     restOrBar: "Restaurant",
     restType: "Pizza",
-    rating: 0,
     longitude: -73.9305111,
     latitude: 40.6945614,
     website: "https://www.santapanza.com",
@@ -64,7 +61,6 @@ location4 = Location.create(
     address: "1211 Myrtle Ave, Brooklyn",
     restOrBar: "Bar",
     restType: "",
-    rating: 0,
     longitude: -73.9318684,
     latitude: 40.6975224,
     website: "https://www.instagram.com/happyfunhideaway/?hl=en",
@@ -78,7 +74,6 @@ location5 = Location.create(
     address: "266 Irving Avenue, Brooklyn",
     restOrBar: "Bar",
     restType: "",
-    rating: 0,
     longitude: -73.91555735946153,
     latitude: 40.699805212479916,
     website: "https://www.dromedarytiki.com/",
@@ -88,26 +83,30 @@ location5 = Location.create(
 )
 
 user1 = User.create(
-    username: "adam"
+    username: "adam",
+    email: "adam@heat.com"
 )
 
 comment1 = Comment.create(
     content: "So Warm",
     user_id: 1, 
     location_id: 2,
-    likes: 0
+    likes: 0,
+    rating: 3
 )
 
 comment2 = Comment.create(
     content: "Love it!",
     user_id: 1,
     location_id: 2,
-    likes: 0
+    likes: 0,
+    rating: 4
 )
 
 comment3 = Comment.create(
     content: "Great Pizza",
     user_id: 1,
     location_id: 2,
-    likes: 0
+    likes: 0,
+    rating: 2
 )
