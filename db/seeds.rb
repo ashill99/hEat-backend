@@ -67,7 +67,7 @@ location4 = Location.create(
     website: "https://www.instagram.com/happyfunhideaway/?hl=en",
     imgUrl: "https://infatuation.imgix.net/media/images/reviews/happyfun-hideaway/banners/1521753430.75.jpg?auto=format&fit=max&h=1200&w=3200",
     hours: "4pm - 4am Daily",
-    menu: ""
+    menu: "https://whereyoueat.com/r_menus_images/menus-17470/0001.jpg"
 )
 
 location5 = Location.create(
@@ -377,3 +377,11 @@ comment3 = Comment.create(
     username: "Ultimate-Ian-Hollander"
 )
 
+comment4 = Comment.create(
+    content: "<3 the Clam Pizza",
+    user_id: 2,
+    location_id: 1,
+    likes: 2, 
+    rating: 5, 
+    username: "Nicole"
+)
