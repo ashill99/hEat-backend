@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_02_10_001733) do
     t.string "content"
     t.integer "likes"
     t.integer "rating"
+    t.string "username"
     t.bigint "user_id", null: false
     t.bigint "location_id", null: false
     t.datetime "created_at", precision: 6, null: false
