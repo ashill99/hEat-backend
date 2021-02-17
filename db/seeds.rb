@@ -214,6 +214,127 @@ location15 = Location.create(
     menu: "https://www.grandarmybar.com/#menu"
 )
 
+location16 = Location.create(
+    name: "Miss Ada",
+    address: "184 Dekalb Ave, New York, NY 11205",
+    restOrBar: "Restaurant",
+    restType: "Mediterranean/Middle Eastern",
+    longitude: -73.9724,
+    latitude: 40.6894,
+    website: "https://www.missadanyc.com/",
+    imgUrl: "https://images.squarespace-cdn.com/content/v1/58ed384edb29d654c6cc8032/1494880544876-KZE07ETUPL6XDI8OCR6L/ke17ZwdGBToddI8pDm48kE8F1gtKa43xUWd7CzTvFVF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0plef_PmwB6-3GP4qDbCUv-J5ex0CTWqsqsQIxlgM0BuWezpf6sbifK1g4Z_VNRRAw/Miss+Ada+Shakshuka+by+Michael+Tulipan.JPG?format=2500w",
+    hours: "5pm-10pm Mon-Fri, 11am-10pm Weekends",
+    menu: "https://www.missadanyc.com/"
+)
+
+location17 = Location.create(
+    name: "Lavender Lake", 
+    address: "383 Carroll St., Brooklyn, NY 11231",
+    restOrBar: "Bar", 
+    restType: "",
+    longitude: -73.9898,
+    latitude: 40.6786,
+    website: "vhttp://www.lavenderlake.com/",
+    imgUrl: "https://images.squarespace-cdn.com/content/v1/5313623ee4b0e36de2978d67/1484869828223-3SRF3TS39CDFCZFWP4ZX/ke17ZwdGBToddI8pDm48kG4sWXxm5MLGzYXxhI3Emb8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcDFrDsapgIo0q8jUcW8rNPjhtZThjXNYUQzTwr7Xuxi1NR1RJqyZivqtN160e7oMj/GOWANUSCANAL.jpeg?format=1500w",
+    hours: "4pm-12pm Mon-Fri, 12pm-10pm Weekends",
+    menu: "https://www.tripadvisor.com/LocationPhotoDirectLink-g60827-d6558666-i232315249-Lavender_Lake-Brooklyn_New_York.html"
+
+)
+
+location18 = Location.create(
+    name: "Pig Beach", 
+    address: "480 Union Street, Brooklyn, NY 11231",
+    restOrBar: "Restaurant",
+    restType: "BBQ",
+    longitude: -73.9889,
+    latitude: 40.6796,
+    website: "https://www.pigbeachnyc.com/",
+    imgUrl: "https://media-cdn.tripadvisor.com/media/photo-s/16/99/0d/67/patio-and-bar-area.jpg",
+    hours: "4pm-8pm Wed-Fri, 12pm-8pm Sat-Sun",
+    menu: "https://www.pigbeachnyc.com/menu/backyard-food-menu/"
+)
+
+location19 = Location.create(
+    name: "Public Records",
+    address: "233 Butler St., New York, NY 11217",
+    restOrBar: "Restaurant",
+    restType: "Vegan",
+    longitude: -73.9864, 
+    latitude: 40.6822,
+    website: "https://publicrecords.nyc/information",
+    imgUrl: "https://www.insidehook.com/wp-content/uploads/2020/02/hero1-8.jpg?fit=1200%2C800",
+    hours: "12pm-10pm Thurs-Sun",
+    menu: "https://publicrecords.nyc/menu"
+)
+
+location20 = Location.create(
+    name: "Black Rabbit",
+    address: "91 Greenpoint Ave, Brooklyn, NY 11222",
+    restOrBar: "Bar",
+    restType: "",
+    longitude: -73.9566,
+    latitude: 40.7301,
+    website: "http://www.blackrabbitbar.com", 
+    imgUrl: "https://www.totalhappyhour.com/preview/500-450/content/files/mod.happyhour/423a4c287a0848eb90b52b24fb4128b4.jpg",
+    hours: "2pm-2am daily",
+    menu: "http://www.blackrabbitbar.com/#menu"
+
+)
+
+location21 = Location.create(
+    name: "Tørst",
+    address: "615 Manhattan Ave, Brooklyn, NY 11222",
+    restOrBar: "Bar",
+    restType: "",
+    longitude: -73.9508,
+    latitude: 40.7234,
+    website: "http://www.torstnyc.com/",
+    imgUrl: "https://images.squarespace-cdn.com/content/v1/59a0cb856b8f5be647ec26a7/1503763269007-JXCG8N9QN6H0WNM1WUGN/ke17ZwdGBToddI8pDm48kFeAtvP9WODk8WMfXylcMsR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO-Bt540rNJkO_0QTS62vbxCE6Rx3pixHRJ79KQgGrDEeQ/Torst-02.02.17-18.jpg?format=2500w",
+    hours: "12pm-11pm daily",
+    menu: "http://www.torstnyc.com/"
+)
+
+location22 = Location.create(
+    name: "Olmsted",
+    address: "659 Vanderbilt Ave, Brooklyn, NY 11238",
+    restOrBar: "Restaurant",
+    restType: "American",
+    longitude: -73.9688,
+    latitude: 40.6772,
+    website: "http://www.olmstednyc.com/",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/olmsted/Olmsted%20Garden.jpg?auto=format&h=890&w=1336",
+    hours: "12pm-10pm Wed-Sun",
+    menu: "http://www.olmstednyc.com/food-and-drink"
+)
+
+location23 = Location.create(
+    name: "Red Hook Tavern",
+    address: "329 Van Brunt St, New York, NY 11231",
+    restOrBar: "Restaurant",
+    restType: "American/Burgers/Steaks",
+    longitude: -74.012025,
+    latitude: 40.677825,
+    website: "https://www.redhooktavern.com/",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/red-hook-tavern/TeddyWolff.RedHookTavern.Burger.1.jpg?auto=format&h=890&w=1336",
+    hours: "12pm-9pm Tues-Sun",
+    menu: "https://www.redhooktavern.com/menu"
+
+)
+
+location24 = Location.create(
+    name: "Gertie",
+    address: "58 Marcy Ave, Brooklyn, NY 11211",
+    restOrBar: "Restaurant",
+    restType: "American",
+    longitude: -73.9555,
+    latitude: 40.7125,
+    website: "https://www.gertie.nyc/",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/gertie/NoahDevereaux_Gertie_079_Spread.JPG?auto=format&h=890&w=1336",
+    hours: "9am-5pm Thurs-Sun",
+    menu: "https://www.gertie.nyc/menus"
+)
+
+
 user1 = User.create(
     username: "adam",
     email: "adam@heat.com"
