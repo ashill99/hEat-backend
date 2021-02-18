@@ -334,6 +334,162 @@ location24 = Location.create(
     menu: "https://www.gertie.nyc/menus"
 )
 
+location25 = Location.create(
+    name: "Aita",
+    address: "132 Greene Ave, Brooklyn, NY 11238",
+    restOrBar: "Restaurant",
+    restType: "Italian",
+    longitude: -73.9666,
+    latitude: 40.6865,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location26 = Location.create(
+    name: "Seamores",
+    address: "66 Water Street, Brooklyn, NY 11201",
+    restOrBar: "Restaurant",
+    restType: "Seafood",
+    longitude: -73.9913,
+    latitude: 40.7031,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location27 = Location.create(
+    name: "Elsewhere",
+    address: "599 Johnson Ave, Brooklyn, NY 11237",
+    restOrBar: "Bar",
+    restType: "",
+    longitude: -73.9232,
+    latitude: 40.7094,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location28 = Location.create(
+    name: "Honey's",
+    address: "93 Scott Ave, Brooklyn, NY 11237",
+    restOrBar: "Bar",
+    restType: "",
+    longitude: -73.9231,
+    latitude: 40.7104,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location29 = Location.create(
+    name: "Lot 45",
+    address: "411 Troutman St, Brooklyn, NY 11237",
+    restOrBar: "Bar",
+    restType: "",
+    longitude: -73.9226,
+    latitude: 40.7070,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location30 = Location.create(
+    name: "Otis",
+    address: "18 Harrison Pl., Brooklyn, NY 11206",
+    restOrBar: "Restaurant",
+    restType: "American",
+    longitude: -73.9326,
+    latitude: 40.7061,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location31 = Location.create(
+    name: "Pine Box Rock Shop",
+    address: "12 Grattan St, Brooklyn, NY 11206",
+    restOrBar: "Bar",
+    restType: "",
+    longitude: -73.9327,
+    latitude: 40.7053,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location32 = Location.create(
+    name: "Roberta’s",
+    address: "261 Moore St., Brooklyn, NY 11206",
+    restOrBar: "Restaurant",
+    restType: "Pizza",
+    longitude: -73.9336,
+    latitude: 40.7051,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+
+location33 = Location.create(
+    name: "Tong",
+    address: "321 Starr St, Brooklyn, NY 11237",
+    restOrBar: "Restaurant",
+    restType: "Thai",
+    longitude: -73.9206,
+    latitude: 40.7079,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location34 = Location.create(
+    name: "Colonia Verde",
+    address: "219 Dekalb Ave., Brooklyn, NY",
+    restOrBar: "Restaurant",
+    restType: "Latin",
+    longitude: -73.9707,
+    latitude: 40.6897,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location34 = Location.create(
+    name: "BK Jani",
+    address: "679 Grand Street, Brooklyn, NY 11211",
+    restOrBar: "Restaurant",
+    restType: "Burgers",
+    longitude: -73.9453,
+    latitude: 40.7117,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
+
+location35 = Location.create(
+    name: "The Four Horsemen",
+    address: "295 Grand St., Brooklyn, NY 11211",
+    restOrBar: "Restaurant",
+    restType: "Burgers",
+    longitude: -73.9573,
+    latitude: 40.7131,
+    website: "*",
+    imgUrl: "https://infatuation.imgix.net/media/images/reviews/aita/Aita%20Spread.jpg?auto=format&h=890&w=1336",
+    hours: "8am - 10pm Daily",
+    menu: "*"
+)
 
 user1 = User.create(
     username: "adam",
