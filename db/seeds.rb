@@ -78,7 +78,7 @@ location5 = Location.create(
     longitude: -73.91555735946153,
     latitude: 40.699805212479916,
     website: "https://www.dromedarytiki.com/",
-    imgUrl: "https://infatuation.imgix.net/media/images/reviews/happyfun-hideaway/banners/1521753430.75.jpg?auto=format&fit=max&h=1200&w=3200",
+    imgUrl: "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/148369155_5424471627577793_2203545886333736239_o.jpg?_nc_cat=103&ccb=3&_nc_sid=a26aad&_nc_ohc=l5cIS-JeoR8AX-WdkPb&_nc_ht=scontent-lga3-1.xx&oh=18214442a011f8e9007ab7eef76986ce&oe=6055F08D",
     hours: "3pm - 10pm Tues - Sun",
     menu: "https://app.trytabled.com/openmenu/?id=D8bZJlWhcbTWtHeymUDAstOWeBE2"
 )
@@ -350,6 +350,11 @@ user3 = User.create(
     email: "ian@flatiron.com"
 )
 
+user4 = User.create(
+    username: "Sara",
+    email: "sara@gmail.com"
+)
+
 comment1 = Comment.create(
     content: "So Warm",
     user_id: 1, 
@@ -384,4 +389,13 @@ comment4 = Comment.create(
     likes: 2, 
     rating: 5, 
     username: "Nicole"
+)
+
+comment5 = Comment.create(
+    content: "Love this place!",
+    user_id: 4,
+    location_id: 5,
+    likes: 0, 
+    rating: 5, 
+    username: "Sara"
 )
