@@ -4,7 +4,7 @@ class Api::V1::UsersController < ApplicationController
         @user = User.find(params[:id])
         render json: @user 
     end
-
+    
     def index
         @users = User.all
         render json: @users
@@ -23,19 +23,21 @@ class Api::V1::UsersController < ApplicationController
         @user.update(user_params)
     end
 
-    def create 
-        @user = User.create(user_params)
-        render json: @user
-    end 
+    # def create
+    #     register_params = params.permit(:username, :password, :email)
+    #     @user = User.create(register_params)
+    #     if @user.valid?
+    #     render json: @user
+    #     else
+    #       render json: { error: @user.errors.full_messages}, status: :bad_request
+    #     end
 
-    # def destroy 
-    #     @user = User.find(params[:id])
-    #     @user.destroy  
-    # end
+    #   end
+
 
     private
 
     def user_params
-        params.require(:user).permit(:id, :username, :email)
+        params.require(:user).permit(:id, :username, :password, :email)
     end
 end

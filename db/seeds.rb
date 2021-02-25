@@ -493,21 +493,25 @@ location35 = Location.create(
 
 user1 = User.create(
     username: "adam",
+    password: "123",
     email: "adam@heat.com"
 )
 
 user2 = User.create(
     username: "Nicole",
+    password: "123",
     email: "nicole@gmail.com"
 )
 
 user3 = User.create(
     username: "Ultimate-Ian-Hollander",
+    password: "123",
     email: "ian@flatiron.com"
 )
 
 user4 = User.create(
     username: "Sara",
+    password: "123",
     email: "sara@gmail.com"
 )
 
