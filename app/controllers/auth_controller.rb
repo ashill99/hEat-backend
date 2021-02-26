@@ -18,7 +18,7 @@ class AuthController < ApplicationController
 
   def login 
     #find user 
-    user = User.find_by(username: params[:username])
+    user = User.find_by(email: params[:email])
     #authenticate password 
     if user && user.authenticate(params[:password])
           #if the user is authenticated, send back... user object
